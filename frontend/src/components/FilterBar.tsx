@@ -1,5 +1,5 @@
 import React from 'react';
-import { EventCategory, CATEGORY_COLORS } from '../types';
+import { EventCategory, CATEGORY_COLORS } from '../types/index';
 
 interface FilterBarProps {
   selectedCategory: EventCategory | 'all';

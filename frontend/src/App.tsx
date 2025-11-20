@@ -4,7 +4,7 @@ import { FilterBar } from './components/FilterBar';
 import { SearchBox } from './components/SearchBox';
 import { Map } from './components/Map';
 import { fetchEvents } from './services/api';
-import { Event, EventCategory } from './types';
+import { Event, EventCategory } from './types/index';
 import './App.css';
 
 function App() {

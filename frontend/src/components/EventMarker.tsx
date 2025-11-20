@@ -1,7 +1,7 @@
 import React from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import { Icon, LatLngExpression } from 'leaflet';
-import { Event, CATEGORY_COLORS } from '../types';
+import { Event, CATEGORY_COLORS } from '../types/index';
 import { EventPopup } from './EventPopup';
 
 interface EventMarkerProps {

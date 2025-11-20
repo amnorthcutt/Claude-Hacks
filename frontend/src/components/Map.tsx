@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
-import { Event } from '../types';
+import { Event } from '../types/index';
 import { EventMarker } from './EventMarker';
 import 'leaflet/dist/leaflet.css';
 
